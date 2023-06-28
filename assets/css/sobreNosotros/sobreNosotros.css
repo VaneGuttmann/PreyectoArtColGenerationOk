@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.contenido {
+	width: 100%;
+	background-color: #100F0F;
+}
+
+
+.carousel-item {
+	height: 65vh;
+
+}
+
+.w-100 {
+	height: 100%;
+	object-fit: unset;
+}
+
+
+.card-img-top {
+	height: 30vh;
+}
+
+
+
+

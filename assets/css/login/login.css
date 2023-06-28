@@ -1,0 +1,107 @@
+:root {
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    --transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color: white;
+}
+
+body {
+    background-color: #141414;
+    font-family: var(--font-mono);
+}
+
+section {
+    display:flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;  
+}
+
+section h2 { 
+    text-align:center;
+    width: 100%;
+    padding: 1em 0;
+    font-size: 2.5em
+}
+
+section form {
+    padding: 1.5em;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+section form label {
+    width: 100%;
+    padding: 0.2em;
+    color: #141414;
+}
+
+section form input {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.938em 0.625em;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    color: #141414;
+    border: 2px solid #141414;
+}
+
+section form, div {
+    width: 100%;
+}
+
+section form input[type='submit'] {
+    margin-top: 1.5em;
+    background-color: white;
+    color: #141414;
+    font-family: var(--font-mono);
+    transition: var(--transition);
+    cursor: pointer;
+} 
+
+section form input[type='submit']:active {
+    transform: scale(0.97);
+}
+
+section p {
+    margin-top: 1.5em;
+}
+
+
+section p a {
+    text-decoration: none;
+    color: #141414;
+}
+
+
+/* Home */
+section button {
+    background-color: white;
+    font-family: var(--font-mono);
+    transition: var(--transition);
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 9px;
+    margin-top: 1.5em;
+    font-size: 1em;
+}
+
+span {
+    padding: 0.5em;
+    background-color: #f5f5f5;
+    border-radius: 25%;
+}

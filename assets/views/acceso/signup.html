@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/acceso/signup.css">
+    <title>Registro</title>
+</head>
+<body>
+    <section>
+        <h2>Registro</h2>
+        <form id="signupForm">
+            <div class="form-control">
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Ingrese el Nombre" id="name" name="name" />
+                <span>Error</span>
+            </div>
+            <div class="form-control">
+                <label for="email">Mail</label>
+                <input type="email" placeholder="Ingrese el Email" id="email" />
+                <span>Error</span>
+            </div>
+            <div class="form-control">          
+                <label for="password">Contraseña</label>
+                <input type="password" placeholder="Ingrese el Password" id="password" name="password" />
+                <span>Error</span>
+            </div>
+            <div class="form-control">        
+                <label for="password2">Contraseña</label>
+                <input type="password" placeholder="Ingrese el Password" id="password2" name="password2" />
+                <span>Error</span>
+            </div>
+            <input type="submit" value="Registro">
+        </form>
+        <p>Ya tienes una cuenta? <span class="span"><a href="login.html">Login</a></span></p>
+    </section>
+    <script src="../../js/acceso/signup.js"></script>
+</body>
+</html>
